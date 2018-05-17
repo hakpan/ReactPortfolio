@@ -50,18 +50,8 @@ class App extends Component {
                     <Container>
                         <Row>
                             <Col>
-                                <h1>Welcome to React</h1>
-                                <p>
-                                    <Button
-                                        tag="a"
-                                        color="success"
-                                        size="large"
-                                        href="http://reactstrap.github.io"
-                                        target="_blank"
-                                    >
-                                        View Reactstrap Docs
-                                    </Button>
-                                </p>
+                                <span>HEATHER </span>
+                                <span id="akpan">Akpan</span>
                             </Col>
                         </Row>
                     </Container>
