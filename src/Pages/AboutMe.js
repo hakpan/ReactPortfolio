@@ -24,12 +24,12 @@ export default class About extends React.Component {
         <Row>
           <Col sm="12" md={{ size: 8, offset: 2 }}>
             <a href="https://www.linkedin.com/in/heather-akpan-322023127" target={'_blank'}>
-              <img id='image' src={linkedin} alt='linkedIn' />
+              <img id='linkedinLogo' src={linkedin} alt='linkedIn' />
             </a>
             <a href="https://github.com/hakpan" target={'_blank'}>
               <img id='gitLogo' src={github} alt='github' />
             </a>
-            <a href="https://github.com/hakpan" target={'_blank'}>
+            <a href="https://drive.google.com/file/d/1so5uQGJpz9zj4aIyRNI0K5p6hFA0jsZt/view?usp=sharing" target={'_blank'}>
               <img id='resumeLogo' src={Resume} alt='Resume' />
             </a>
           </Col>

@@ -19,15 +19,15 @@ export default class Portfolio extends React.Component {
                       <p id='pheader'>A couple of my BootCamp Projects that I enjoyed working on.</p>
                   </Col>
                 </Row>
-                <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '93%', margin: 'auto'}}>
+                <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '80%', margin: 'auto'}}>
                     <Projectcard/>
                 </div>
                 <Row>
                   <Col>
-                      <h1 id='header'>Logo Design</h1>
+                      <h1 id='header'>Logo/Design</h1>
                   </Col>
                 </Row>
-                <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '93%', margin: 'auto'}}>
+                <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '80%', margin: 'auto'}}>
                   <ImageCard/>
                 </div>
             </div>
