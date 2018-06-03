@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import { Collapse, Container, Row, Col, Button } from 'reactstrap';
+import React from 'react';
+import { Row, Col } from 'reactstrap';
 import './AboutMe.css';
-import JumboComp from '../Components/Jumbotron.js';
 import linkedin from '../Images/linkedin.png';
 import github from '../Images/github.png';
 import Resume from '../Images/Resume.png';

@@ -1,7 +1,4 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, CardLink,
-    CardTitle, CardSubtitle, CardHeader, CardFooter, Collapse, Container, Row,
-    Col } from 'reactstrap';
 import FeedMe from '../Images/FeedMe.png';
 import surveySquidLogo from '../Images/surveySquidLogo.png';
 import Resume from '../Images/Resume.png';

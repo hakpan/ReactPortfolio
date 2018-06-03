@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Collapse, Container, Row, Col, Jumbotron } from 'reactstrap';
+import React from 'react';
+import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import NavbarComp from './Navbar.js';
 
 class JumboComp extends React.Component {

@@ -1,8 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Card, CardImg, CardText, CardBody, CardLink,
-    CardTitle, CardSubtitle, CardHeader, CardFooter, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container, Row,
-    Col, Jumbotron, Button } from 'reactstrap';
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
 
 class NavbarComp extends React.Component {
   constructor(props) {

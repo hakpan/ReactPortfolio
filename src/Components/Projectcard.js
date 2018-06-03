@@ -1,8 +1,6 @@
 import React from 'react';
 import ButtonComp from './Button.js';
-import { Card, CardImg, CardText, CardBody, CardLink,
-    CardTitle, CardSubtitle, CardHeader, CardFooter, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container, Row,
-    Col } from 'reactstrap';
+import { Card, CardText, CardBody, CardTitle, CardFooter } from 'reactstrap';
 
 export default class Projectcard extends React.Component {
   constructor(props) {

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Collapse, Container, Row, Col, Button } from 'reactstrap';
+import React from 'react';
+import { Row, Col } from 'reactstrap';
 import '../App.css';
 import Projectcard from '../Components/Projectcard.js';
 import ImageCard from '../Components/Imagediv.js';
