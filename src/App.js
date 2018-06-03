@@ -1,81 +1,23 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    Container,
-    Row,
-    Col,
-    Jumbotron,
-    Button
-} from 'reactstrap';
+import JumboComp from './Components/Jumbotron.js';
+import Portfolio from './Pages/Portfolio.js';
+import About from './Pages/AboutMe.js';
+import Contact from './Pages/Contact.js';
 
-class App extends Component {
-    constructor(props) {
-        super(props);
-
-        this.toggle = this.toggle.bind(this);
-        this.state = {
-            isOpen: false
-        };
-    }
-    toggle() {
-        this.setState({
-            isOpen: !this.state.isOpen
-        });
-    }
+export default class App extends Component {
     render() {
         return (
-            <div>
-                <Navbar color="faded" light expand="md" id="Navbar">
-                    <NavbarBrand href="/">reactstrap</NavbarBrand>
-                    <NavbarToggler onClick={this.toggle} />
-                    <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <NavLink href="/components/">Components</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="https://github.com/hakpan">Github</NavLink>
-                            </NavItem>
-                        </Nav>
-                    </Collapse>
-                </Navbar>
-                <Jumbotron>
-                    <Container>
-                        <Row>
-                            <Col>
-                                <span>HEATHER </span>
-                                <span id="akpan">Akpan</span>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Jumbotron>
-                <hr></hr>
-                <Row>
-                  <Col>
-                      <h1>Welcome to React</h1>
-                      <p>
-                          <Button
-                              tag="a"
-                              color="success"
-                              size="large"
-                              href="http://reactstrap.github.io"
-                              target="_blank"
-                          >
-                              View Reactstrap Docs
-                          </Button>
-                      </p>
-                  </Col>
-                </Row>
-            </div>
+            <Router>
+                <div>
+                <JumboComp/>
+
+                <Route exact path="/" component={Portfolio} />
+                <Route path="/about" component={About} />
+                <Route path="/contact" component={Contact} />
+                </div>
+            </Router>
         );
     }
 }
-
-export default App;

@@ -10,22 +10,56 @@
   to { transform: rotate(360deg); }
 }
 
-h1 {
-  text-align: center;
+#jumbo {
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-color: #FE7773;
+  padding: 10px;
+}
+
+#header {
+  text-align: left;
+  color: #0E0301;
+}
+
+#pheader {
+  text-align: left;
+  color: #0E0301;
+}
+
+.col {
+  margin: 10px;
+  /* padding: 10px; */
 }
 
 .row {
   text-align: center;
-}
-
-span {
-  font-size: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
 }
 
 #akpan {
   font-family: 'Indie Flower', cursive;
 }
 
-#Navbar {
-  background-color: #222;
+#nav {
+  justify-content: center;
+
+}
+
+span {
+  font-size: 70px;
+  color: #0E0301;
+}
+
+/* Circle Div */
+.circleBase {
+  border-radius: 50%;
+} 
+#circle {
+  width: 200px;
+  height: 200px;
+  background: #FE7773;
+  border: 0px solid red;
 }

@@ -1,0 +1,22 @@
+p {
+    text-align: left;
+}
+
+#image{
+    width: 70px;
+    height: 70px;
+  }
+  
+#gitLogo {
+    width: 130px;
+    height: 70px;  
+}
+
+#resumeLogo {
+    width: 85px;
+    height: 85px;  
+}
+
+a {
+    margin: 10px;
+}
