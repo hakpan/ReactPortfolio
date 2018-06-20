@@ -1,6 +1,7 @@
 import React from 'react';
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
+import './Navbar.css';
 
 class NavbarComp extends React.Component {
   constructor(props) {
@@ -23,13 +24,13 @@ class NavbarComp extends React.Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
-                    <NavItem>
+                    <NavItem style={{paddingRight: '50px'}}>
                         <NavLink href="/about">About</NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem style={{paddingRight: '50px'}}>
                         <NavLink href="/">Portfolio</NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem style={{paddingRight: '50px'}}>
                         <NavLink href="/contact">Contact</NavLink>
                     </NavItem>
                 </Nav>

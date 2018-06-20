@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './Contact.css';
 import Email from '../Images/email.png';
+import NavbarComp from '../Components/Navbar.js';
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -13,7 +14,10 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <Row>
+        <Row id='nav'>
+          <NavbarComp/>
+        </Row>
+        <Row style={{ textAlign: 'center'}}>
           <Col>
             <h1>Contact</h1>
           </Col>

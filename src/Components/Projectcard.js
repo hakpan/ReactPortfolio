@@ -1,6 +1,7 @@
 import React from 'react';
 import ButtonComp from './Button.js';
 import { Card, CardText, CardBody, CardTitle, CardFooter } from 'reactstrap';
+import './Projectcard.css';
 
 export default class Projectcard extends React.Component {
   constructor(props) {
@@ -9,110 +10,110 @@ export default class Projectcard extends React.Component {
   render() {
     return (
     <div>
-        <div style={{display: 'inline-block', margin: '10px'}}>
-            <Card>
-                <CardBody style={{textAlign: 'center'}}>
-                    <CardTitle>Web Design Skeleton</CardTitle>
-                    <CardText>HTML {'&'} CSS</CardText>
+        <div style={{display: 'inline-block', margin: '20px'}}>
+            <div>
+                <div class='cardBody' style={{textAlign: 'center'}}>
+                    <CardTitle style={{color: 'grey', textAlign: 'center'}}>Web Design Skeleton</CardTitle>
+                    <CardText style={{color: 'grey', textAlign: 'center'}}>HTML {'&'} CSS</CardText>
                     <ButtonComp 
                     url={'https://hakpan.github.io/Basic-Portfolio/'}
                     />
-                </CardBody>
-                <CardFooter>{'\u00A9 Nov 2017'}</CardFooter>
-            </Card>
+                </div>
+                <div class='footer' style={{textAlign: 'center', color: 'grey'}}>{'\u00A9 Nov 2017'}</div>
+            </div>
         </div>
 
-        <div style={{display: 'inline-block', margin: '10px'}}>
-            <Card>
-                <CardBody style={{textAlign: 'center'}}>
-                    <CardTitle>Psychic Game</CardTitle>
-                    <CardText>HTML powered by JavaScript</CardText>
+        <div style={{display: 'inline-block', margin: '20px'}}>
+            <div>
+                <div class='cardBody' style={{textAlign: 'center'}}>
+                    <CardTitle style={{color: 'grey', textAlign: 'center'}}>Psychic Game</CardTitle>
+                    <CardText style={{color: 'grey', textAlign: 'center'}}>HTML powered by JavaScript</CardText>
                     <ButtonComp 
                     url={'https://hakpan.github.io/Psychic-Game/'}
                     />
-                </CardBody>
-                <CardFooter>{'\u00A9 Dec 2017'}</CardFooter>
-            </Card>
+                </div>
+                <div class='footer' style={{textAlign: 'center', color: 'grey'}}>{'\u00A9 Dec 2017'}</div>
+            </div>
         </div>
 
-        <div style={{display: 'inline-block', margin: '10px'}}>
-            <Card>
-                <CardBody style={{textAlign: 'center'}}>
-                    <CardTitle>Crystal Game</CardTitle>
-                    <CardText>HTML pages with jQuery library</CardText>
+        <div style={{display: 'inline-block', margin: '20px'}}>
+            <div>
+                <div class='cardBody' style={{textAlign: 'center'}}>
+                    <CardTitle style={{color: 'grey', textAlign: 'center'}}>Crystal Game</CardTitle>
+                    <CardText style={{color: 'grey', textAlign: 'center'}}>HTML pages with jQuery library</CardText>
                     <ButtonComp 
                     url={'https://hakpan.github.io/week-4-game/'}
                     />
-                </CardBody>
-                <CardFooter>{'\u00A9 Dec 2017'}</CardFooter>
-            </Card>
+                </div>
+                <div class='footer' style={{textAlign: 'center', color: 'grey'}}>{'\u00A9 Dec 2017'}</div>
+            </div>
         </div>
 
-        <div style={{display: 'inline-block', margin: '10px'}}>
-            <Card>
-                <CardBody style={{textAlign: 'center'}}>
-                    <CardTitle>Triva Game</CardTitle>
-                    <CardText>jQuery {'&'} JavaScript</CardText>
+        <div style={{display: 'inline-block', margin: '20px'}}>
+            <div>
+                <div class='cardBody' style={{textAlign: 'center'}}>
+                    <CardTitle style={{color: 'grey', textAlign: 'center'}}>Trivia Game</CardTitle>
+                    <CardText style={{color: 'grey', textAlign: 'center'}}>jQuery {'&'} JavaScript</CardText>
                     <ButtonComp 
                     url={'https://hakpan.github.io/TriviaGame/'}
                     />
-                </CardBody>
-                <CardFooter>{'\u00A9 Dec 2017'}</CardFooter>
-            </Card>
+                </div>
+                <div class='footer' style={{textAlign: 'center', color: 'grey'}}>{'\u00A9 Dec 2017'}</div>
+            </div>
         </div>
 
-        <div style={{display: 'inline-block', margin: '10px'}}>
-            <Card>
-                <CardBody style={{textAlign: 'center'}}>
-                    <CardTitle>Train Schedule</CardTitle>
-                    <CardText>Use Firebase for data</CardText>
+        <div style={{display: 'inline-block', margin: '20px'}}>
+            <div>
+                <div class='cardBody' style={{textAlign: 'center'}}>
+                    <CardTitle style={{color: 'grey', textAlign: 'center'}}>Train Schedule</CardTitle>
+                    <CardText style={{color: 'grey', textAlign: 'center'}}>Use Firebase for data</CardText>
                     <ButtonComp 
                     url={'https://hakpan.github.io/Train-Scheduler/'}
                     />
-                </CardBody>
-                <CardFooter>{'\u00A9 Jan 2018'}</CardFooter>
-            </Card>
+                </div>
+                <div class='footer' style={{textAlign: 'center', color: 'grey'}}>{'\u00A9 Jan 2018'}</div>
+            </div>
         </div>
-
-        <div style={{display: 'inline-block', margin: '10px'}}>
-            <Card>
-                <CardBody style={{textAlign: 'center'}}>
-                    <CardTitle>1st Group Project</CardTitle>
-                    <CardText>Team Work to complete project</CardText>
+        
+        <div style={{display: 'inline-block', margin: '20px'}}>
+            <div>
+                <div class='cardBody' style={{textAlign: 'center'}}>
+                    <CardTitle style={{color: 'grey', textAlign: 'center'}}>1st Group Project</CardTitle>
+                    <CardText style={{color: 'grey', textAlign: 'center'}}>Work in a team to create an app</CardText>
                     <ButtonComp 
                     url={'https://hakpan.github.io/OpenGig/welcome.html'}
                     />
-                </CardBody>
-                <CardFooter>{'\u00A9 Jan 2018'}</CardFooter>
-            </Card>
+                </div>
+                <div class='footer' style={{textAlign: 'center', color: 'grey'}}>{'\u00A9 Jan 2018'}</div>
+            </div>
         </div>
 
-        <div style={{display: 'inline-block', margin: '10px'}}>
-            <Card>
-                <CardBody style={{textAlign: 'center'}}>
-                    <CardTitle>Terminal Assignment</CardTitle>
-                    <CardText>Use MySql to store, update, and return data</CardText>
+        <div style={{display: 'inline-block', margin: '20px'}}>
+            <div>
+                <div class='cardBody' style={{textAlign: 'center'}}>
+                    <CardTitle style={{color: 'grey', textAlign: 'center'}}>Terminal Assignment</CardTitle>
+                    <CardText style={{color: 'grey', textAlign: 'center'}}>Use MySql to store, update, and return data</CardText>
                     <ButtonComp 
                     url={'https://hakpan.github.io/bamazon/'}
                     />
-                </CardBody>
-                <CardFooter>{'\u00A9 Feb 2018'}</CardFooter>
-            </Card>
+                </div>
+                <div class='footer' style={{textAlign: 'center', color: 'grey'}}>{'\u00A9 Feb 2018'}</div>
+            </div>
         </div>
-
-        <div style={{display: 'inline-block', margin: '10px'}}>
-            <Card>
-                <CardBody style={{textAlign: 'center'}}>
-                    <CardTitle>Project 2</CardTitle>
-                    <CardText>Work with a team to create an app with a
-                     database and use heroku to host</CardText>
+        
+        <div style={{display: 'inline-block', margin: '20px'}}>
+            <div>
+                <div class='cardBody' style={{textAlign: 'center'}}>
+                    <CardTitle style={{color: 'grey', textAlign: 'center'}}>Project 2</CardTitle>
+                    <CardText style={{color: 'grey', textAlign: 'center'}}>Create app with database and hosted on heroku</CardText>
                     <ButtonComp 
                     url={'https://floating-temple-72911.herokuapp.com/'}
                     />
-                </CardBody>
-                <CardFooter>{'\u00A9 March 2018'}</CardFooter>
-            </Card>
+                </div>
+                <div class='footer' style={{textAlign: 'center', color: 'grey'}}>{'\u00A9 March 2018'}</div>
+            </div>
         </div>
+
     </div>
     );
   }

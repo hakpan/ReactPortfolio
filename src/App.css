@@ -1,65 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-
-@font-face {
-  font-family: 'Indie Flower', cursive;
-  src: url('https://fonts.googleapis.com/css?family=Indie+Flower');
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
+/* style by classes javascript by ids ids get looked at first then classes this is why we use */
+
 #jumbo {
+  text-align: center;
   background-repeat: no-repeat;
   background-position: center; 
-  background-color: #FE7773;
+  background-color: grey;
+  height: 600px;
+  width: 100%;
   padding: 10px;
 }
 
-#header {
+.header {
   text-align: left;
-  color: #0E0301;
+  color: grey;
 }
 
-#pheader {
+.pheader {
   text-align: left;
-  color: #0E0301;
+  color: grey;
 }
 
 .col {
   margin: 10px;
+  font-family: 'Montserrat', sans-serif;
   /* padding: 10px; */
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .row {
-  text-align: center;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
-}
-
-#akpan {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
 }
 
 #nav {
   justify-content: center;
-
 }
 
 span {
   font-size: 70px;
   color: #0E0301;
-}
+  font-family: 'Montserrat', sans-serif;
 
-/* Circle Div */
-.circleBase {
-  border-radius: 50%;
-} 
-#circle {
-  width: 200px;
-  height: 200px;
-  background: #FE7773;
-  border: 0px solid red;
 }

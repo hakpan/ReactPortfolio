@@ -4,6 +4,7 @@ import './AboutMe.css';
 import linkedin from '../Images/linkedin.png';
 import github from '../Images/github.png';
 import Resume from '../Images/Resume.png';
+import NavbarComp from '../Components/Navbar.js';
 
 export default class About extends React.Component {
   constructor(props) {
@@ -15,21 +16,24 @@ export default class About extends React.Component {
   render() {
     return (
       <div>
+        <Row id='nav'>
+          <NavbarComp/>
+        </Row>
         <Row>
-          <Col>
+          <Col style={{ textAlign: 'center'}}>
             <h1>About</h1>
           </Col>
         </Row>
-        <Row>
+        <Row style={{ textAlign: 'center'}}>
           <Col sm="12" md={{ size: 8, offset: 2 }}>
             <a href="https://www.linkedin.com/in/heather-akpan-322023127" target={'_blank'}>
-              <img id='linkedinLogo' src={linkedin} alt='linkedIn' />
+              <img class='linkedinLogo' src={linkedin} alt='linkedIn' />
             </a>
             <a href="https://github.com/hakpan" target={'_blank'}>
-              <img id='gitLogo' src={github} alt='github' />
+              <img class='gitLogo' src={github} alt='github' />
             </a>
             <a href="https://drive.google.com/file/d/1so5uQGJpz9zj4aIyRNI0K5p6hFA0jsZt/view?usp=sharing" target={'_blank'}>
-              <img id='resumeLogo' src={Resume} alt='Resume' />
+              <img class='resumeLogo' src={Resume} alt='Resume' />
             </a>
           </Col>
         </Row>

@@ -1,0 +1,11 @@
+
+  .hover1:before {
+    left: calc(50%);
+    width: 50%;
+    background-color: #000;
+  }
+  .hover1:after {
+    right: calc(50%);
+    width: 50%;
+    background-color: #8777;
+  }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
-import NavbarComp from './Navbar.js';
+import '../App.css';
+import hero from '../Images/hero.png';
 
 class JumboComp extends React.Component {
     constructor(props) {
@@ -18,16 +19,13 @@ class JumboComp extends React.Component {
     }
     render() {
       return (
-        <Jumbotron id='jumbo'>
+
+        <Jumbotron>
             <Container>
                 <Row>
-                    <Col>
-                        <span>HEATHER </span>
-                        <span id="akpan">Akpan</span>
+                    <Col style={{paddingTop: '150px', justifyContent: 'center'}}>
+                        <span>HEATHER AKPAN</span>
                     </Col>
-                </Row>
-                <Row id='nav'>
-                    <NavbarComp/>
                 </Row>
             </Container>
         </Jumbotron>
