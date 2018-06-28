@@ -19,12 +19,12 @@
 
 .header {
   text-align: left;
-  color: grey;
+  color:#333333;
 }
 
 .pheader {
   text-align: left;
-  color: grey;
+  color: #333333;
 }
 
 .col {
@@ -46,7 +46,7 @@ p{
   padding-right: 30px;
   padding-top: 10px;
   font-family: 'Montserrat', sans-serif;
-  color: grey;
+  color: #333333;
 }
 
 #nav {

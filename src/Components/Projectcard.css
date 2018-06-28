@@ -2,8 +2,18 @@
 
 .cardBody {
     font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+CardTitle {
+    color: #333333;
+}
+
+CardText {
+    color: #333333;
 }
 
 .footer{
     font-family: 'Montserrat', sans-serif;
+    color: #333333;
 }

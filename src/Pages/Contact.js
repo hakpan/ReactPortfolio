@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './Contact.css';
-import Email from '../Images/email.png';
+import Email from '../Images/email.svg';
 import NavbarComp from '../Components/Navbar.js';
 
 export default class Contact extends React.Component {

@@ -17,19 +17,10 @@ export default class Portfolio extends React.Component {
                 <Row id='nav'>
                     <NavbarComp/>
                 </Row>
-                <Row style={{paddingLeft: '11%'}}>
-                  <Col>
-                      <h1 class='header'>BootCamp Projects</h1>
-                  </Col>
-                </Row>
-                <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '80%', margin: 'auto'}}>
+                <Projectcard/>
+                {/* <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '80%', margin: 'auto'}}>
                     <Projectcard/>
-                </div>
-                <Row style={{paddingLeft: '11%'}}>
-                  <Col>
-                      <h1 id='header'>Logo/Design</h1>
-                  </Col>
-                </Row>
+                </div> */}
                 <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '80%', margin: 'auto'}}>
                   <ImageCard/>
                 </div>

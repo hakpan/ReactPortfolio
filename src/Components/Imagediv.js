@@ -17,7 +17,7 @@ export default class ImageCard extends React.Component {
             </div>
 
             <div style={{display: 'inline-block', margin: '10px'}}>
-                <figure><img src={surveySquidLogo} alt="FeedMe Logo" id="image" style={{width: '250px', height: '250px'}}/></figure>
+                <figure><img src={surveySquidLogo} alt="SurveySquid" id="image" style={{width: '250px', height: '250px'}}/></figure>
             </div>
 
              <div style={{display: 'inline-block', margin: '10px'}}>
