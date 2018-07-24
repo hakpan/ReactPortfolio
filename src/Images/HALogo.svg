@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354 354">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #474747;
+      }
+
+      .cls-2 {
+        font-size: 215.89px;
+        fill: #fff;
+        font-family: Antic-Regular, Antic;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <title>HALogo</title>
+  <circle class="cls-1" cx="177" cy="177" r="177"/>
+  <text class="cls-2" transform="translate(43.25 246.77)"><tspan class="cls-3">H</tspan><tspan x="128.67" y="0">A</tspan></text>
+</svg>

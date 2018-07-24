@@ -5,7 +5,7 @@ import linkedin from '../Images/linkedin.png';
 import github from '../Images/github.png';
 import Resume from '../Images/Resume.png';
 import aboutMePic from '../Images/aboutMePic.jpg';
-import NavbarComp from '../Components/Navbar.js';
+import NavbarComp from '../Components/Navbar';
 
 export default class About extends React.Component {
   constructor(props) {

@@ -11,7 +11,7 @@ export default class ImageCard extends React.Component {
   }
   render() {
     return (
-        <div class='hover01 column'>
+        <div class='hover01 column' style={{overflow: 'auto', whiteSpace: 'nowrap', width: '80%', margin: 'auto'}}>
             <div style={{display: 'inline-block', margin: '10px'}}>
                 <figure><img src={FeedMe} alt="FeedMe Logo" id="image" style={{width: '318px', height: '300px'}}/></figure>
             </div>

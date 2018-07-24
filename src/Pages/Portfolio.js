@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
 import '../App.css';
-import Projectcard from '../Components/Projectcard.js';
-import ImageCard from '../Components/Imagediv.js';
-import NavbarComp from '../Components/Navbar.js';
+import Projectcard from '../Components/Projectcard';
+import ImageCard from '../Components/Imagediv';
+
 
 
 export default class Portfolio extends React.Component {
@@ -14,16 +14,13 @@ export default class Portfolio extends React.Component {
     render() {
         return (
             <div>
-                <Row id='nav'>
-                    <NavbarComp/>
-                </Row>
-                <Projectcard/>
-                {/* <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '80%', margin: 'auto'}}>
+                {/* <Projectcard/>
+                <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '80%', margin: 'auto'}}>
                     <Projectcard/>
-                </div> */}
+                </div>
                 <div style={{overflow: 'auto', whiteSpace: 'nowrap', width: '80%', margin: 'auto'}}>
                   <ImageCard/>
-                </div>
+                </div> */}
             </div>
         );
     }

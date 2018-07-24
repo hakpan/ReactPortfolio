@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #474747;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>HA</title>
+  <g>
+    <circle class="cls-1" cx="165" cy="165" r="164.5"/>
+    <path class="cls-1" d="M183,18A164,164,0,0,1,299,298,164,164,0,0,1,67,66,163,163,0,0,1,183,18m0-1A165,165,0,1,0,348,182,165,165,0,0,0,183,17Z" transform="translate(-18 -17)"/>
+  </g>
+  <g>
+    <path class="cls-2" d="M74.25,248.76V107.36H87V172.6h68.68V107.36h12.72v141.4H155.66v-64H87v64Z" transform="translate(-18 -17)"/>
+    <path class="cls-2" d="M276.86,211.39H214.64l-12.93,37.37H188.58l51.11-141.4H252l52.93,141.4H290.19Zm-58.78-10.1h55.14l-28.08-78.58Z" transform="translate(-18 -17)"/>
+  </g>
+</svg>
