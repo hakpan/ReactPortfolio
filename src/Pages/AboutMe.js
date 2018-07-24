@@ -4,8 +4,7 @@ import './AboutMe.css';
 import linkedin from '../Images/linkedin.png';
 import github from '../Images/github.png';
 import Resume from '../Images/Resume.png';
-import aboutMePic from '../Images/aboutMePic.jpg';
-import NavbarComp from '../Components/Navbar';
+import aboutMePic from '../Images/headShot.png';
 
 export default class About extends React.Component {
   constructor(props) {
@@ -17,9 +16,6 @@ export default class About extends React.Component {
   render() {
     return (
       <div>
-        <Row id='nav'>
-          <NavbarComp/>
-        </Row>
         <Row>
           <Col style={{ textAlign: 'center'}}>
             <h1>About</h1>
@@ -31,22 +27,25 @@ export default class About extends React.Component {
               <img class='linkedinLogo' src={linkedin} alt='linkedIn' />
             </a>
             <a href="https://github.com/hakpan" target={'_blank'}>
-              <img class='gitLogo' src={github} alt='github' />
+              <img class='gitLogo' src={github} alt='github' style={{width: '75px', height: '70px'}}/>
             </a>
             <a href="https://drive.google.com/file/d/16MKVV22G5j5M06vmAhus_cp_xNw2AWw-/view?usp=sharing" target={'_blank'}>
               <img class='resumeLogo' src={Resume} alt='Resume' />
             </a>
           </Col>
         </Row>
-        <Row>
-        <Col sm="6">
-          <img src={aboutMePic} alt="HAPic" id="image" style={{width: '100%', height: '100%'}}/>
-        </Col>
-        <Col sm="6">
-          <section>
-            <p>Passionate, life-learner, that just received certification from the Universiyt of Minnesota, Coding BootCamp as a full-stack web developer. My dream job would be combining my love of design with coding. I'm looking for a career in UX/UI desgin and front-end coding.</p>
-            <p>Everything I learned I did while working full time (no coding at work), and then coming home and putting my parenting hat on. Imagine what I could do if I did this for 8hours a day, 5days a week!</p>
-          </section>
+        <Row style={{justifyContent: 'center'}}>
+          <Col sm="3" style={{textAlign: 'left'}}>
+            <img src={aboutMePic} alt="HAheadShot" id="image" style={{width: '100%'}}/>
+          </Col>
+          <Col sm="5">
+            <p>Passionate, life-learner. I have a B.S in Multidisciplinary Studies and most recently a certification from the Universiyt of Minnesota, Coding BootCamp as a full-stack web developer. I'm continuing my web design/development learning by taking classes in web design, JavaScript, additional HTML {'&'} CSS classes, and desing concepts from Minneapolis Community and Technical College.</p>
+            <p>My passion for web design started when I was 17. I would spend hours manipulating and adding HTML {'&'} CSS to my social media profile page. I learned PhotoShop so that I could edit photos and images on the web. I stopped coding because teenage life got in the way.</p><p>Within the last 5 years I have worked around developers and my curiosity to learn coding grew. I attend the coding bootcamp while working full-time and then coming home and putting my parenting hat on. I found time to complete the course work because I'm determined to learn and I have a genuine interest in what I'm learning.</p>
+            <p>I'm excitied to continue my learning and to add to my portfolio.</p>
+          </Col>
+        </Row>
+        <Row style={{justifyContent: 'center'}}>
+        <Col sm="8">
           <section>
             <h1>Skills</h1>
             <Table>
